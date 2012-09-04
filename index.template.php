@@ -385,7 +385,7 @@ function template_menu()
 			}
 			$width = $width * 8;
 			
-			echo '<div id="button_', $act, '_sub" style="position:absolute;top:30px;display:none;background-color:#e0dfdf;width:',$width,'px;padding: 0 17px;text-align:center;">';
+			echo '<div id="button_', $act, '_sub" style="position:absolute;top:30px;display:none;background-color:#e0dfdf;width:',$width,'px;padding-left:17px;padding-right:5px;text-align:left;z-index:90000">';
 			foreach ($button['sub_buttons'] as $childbutton)
 			{
 				echo '<a href="', $childbutton['href'], '"', isset($childbutton['target']) ? ' target="' . $childbutton['target'] . '"' : '', '>
