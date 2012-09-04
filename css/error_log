@@ -1,0 +1,2 @@
+[03-Sep-2012 23:36:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dubes/public_html/forums/Themes/Minimalistic_Theme_SMF2/index.template.php on line 119
+[03-Sep-2012 23:47:33] PHP Parse error:  syntax error, unexpected ',' in /home/dubes/public_html/forums/Themes/Minimalistic_Theme_SMF2/index.template.php on line 369
